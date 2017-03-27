@@ -26,4 +26,8 @@ CKEDITOR.editorConfig = function( config ) {
     ];
 
     config.removeButtons = 'Save,NewPage,Preview,Print,Scayt,Form,TextField,Radio,Textarea,Select,Button,ImageButton,HiddenField,Language,Anchor,Flash,Iframe,Checkbox,Smiley,SpecialChar,PageBreak,About';
+
+    // Import Extra Plugins
+    config.extraPlugins = 'youtube,pastecode';
+
 };
